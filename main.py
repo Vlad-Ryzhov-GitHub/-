@@ -1,8 +1,16 @@
 # "1st program"
-print( 9 ** 0.5 * 5)
+a = 9
+b = a ** 0.5
+c = b * 5
+print(c)
 
 # "2nd program"
-print (9.99 > 9.88 and 1000 != 1000.1 )
+a = 9.99
+b = 9.98
+c = 1000
+f = 1000.1
+r = (a > b and c != f)
+print (r)
 
 # "3rd program"
 a = 2*2+2
@@ -14,8 +22,4 @@ a = float('123.456')
 b = a * 10
 c = int(b % 10)
 print(c)
-
-
-
-
 
