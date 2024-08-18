@@ -1,6 +1,5 @@
-example = 'Топинамбур'
-print (example[0])
-print (example[-1])
-print (example[5:10])
-print (example[::-1])
-print (example[1:10:2])
+a = 12
+b = 1.5
+c = 'Python'
+v = (b / a)
+print('Курс:'+c, 'всего задач:',a, 'затрачено часов:',b,'среднее время выполнения ',v,'часа.')
