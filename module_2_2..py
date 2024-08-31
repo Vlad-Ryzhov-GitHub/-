@@ -7,4 +7,5 @@ elif first == 10 and second == 10 or third == 10:
     print(2)
 elif not first == 10 and second == 10 and third == 10:
     print(0)
-
+else:
+    print(0)
